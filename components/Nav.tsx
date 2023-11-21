@@ -31,6 +31,14 @@ const Nav = () => {
           >
             Contact
           </Link>
+          <Link
+            href={`/gallery`}
+            className={
+              pathname === "/gallery" ? "text-purple-700" : "text-black"
+            }
+          >
+            Contact
+          </Link>
         </div>
       </nav>
     </header>
