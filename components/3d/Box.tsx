@@ -1,8 +1,7 @@
 "use client";
 
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { useRef } from "react";
-import { useFrame } from "@react-three/fiber";
 import { Mesh } from "three";
 
 export const BoxAnimate = () => {

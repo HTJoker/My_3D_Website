@@ -3,10 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-
 const Nav = () => {
   const pathname = usePathname();
-
 
   return (
     <header>
@@ -37,7 +35,7 @@ const Nav = () => {
               pathname === "/gallery" ? "text-purple-700" : "text-black"
             }
           >
-            Contact
+            Gallery
           </Link>
         </div>
       </nav>
