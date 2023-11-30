@@ -1,9 +1,7 @@
-const Loading = () => {
-  return (
-    <div>
-      <h1>Loading...</h1>
-    </div>
-  );
+import React from "react";
+
+const loading = () => {
+  return <div className="text-2xl text-black">loading...</div>;
 };
 
-export default Loading;
+export default loading;
